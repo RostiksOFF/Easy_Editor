@@ -181,7 +181,49 @@ sharpness_button.clicked.connect(image.image_sharp)
 reset_button.clicked.connect(image.reset_image)
 
 #Стиль
+window.setStyleSheet(
+    '''
 
+    QWidget {
+        background: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 1, stop: 0 #710fb7, stop: 1 #890fcb);
+    } 
+
+    QTextEdit {
+        background: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 1, stop: 0 #9f5afa, stop: 1 #ca0ffa);
+        font-size: 14;
+    }
+
+    QLineEdit{
+        background: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 1, stop: 0 #9f5afa, stop: 1 #ca0ffa);
+    }
+
+    QPushButton{
+        background: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 1, stop: 0 #730faf, stop: 1 #7a0fb9);
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 5px 8px;
+    }
+
+    QPushButton:hover{
+        background: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 1, stop: 0 #880fc1, stop: 1 #7f0fc1);
+        border: 2px dotted #8950a4;
+    }
+
+    QPushButton:pressed{
+        background-color: #7f0fc1;
+        border: 2px solid #8950a4;
+    }
+
+    QLabel{
+        color: white;
+        font-size: 14px;
+    }
+    
+    '''
+
+
+)
 
 #Запуск
 window.show()
