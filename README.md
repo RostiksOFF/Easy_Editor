@@ -46,6 +46,8 @@
 1. Установите виртуальное окружение python 3.13.13
 ```bush
 py - 3.13.13 -m venv myvenv
+windows: myvenv\Scripts\activate
+Linux: sourse myvenv/bin/activate
 ```
 2. Клонируйте репозиторий
 ```bush
