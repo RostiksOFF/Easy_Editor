@@ -48,3 +48,9 @@
 py - 3.13.13 -m venv myvenv
 ```
 2. Клонируйте репозиторий
+```bush
+git clone https://github.com/RostiksOFF/Easy_Editor.git
+```
+3. Установите зависимости
++ PyQt5
++ pillow
